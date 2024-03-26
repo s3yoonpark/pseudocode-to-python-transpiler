@@ -56,6 +56,7 @@ string transform(string condition) {
         else if (token == "FALSE") token = "False"; 
         else if (token == "AND") token = "and"; 
         else if (token == "OR") token = "or"; 
+        else if (token == "NOT") token = "not"; 
         ans += token + ' '; 
     }
     if (!ans.empty()) ans = ans.substr(0, (int)ans.size()-1); 
@@ -362,6 +363,9 @@ void judge(stringstream& ss) {
 int main() {
     freopen("main.ps", "r", stdin); 
     freopen("helper.py", "w", stdout); 
+    cout << "import random\n"; 
+    cout << "def RANDOM(): return random.random()\n"; 
+    cout << "def ROUND(a, b): return round(a, b)\n";
     cout << "def DIV(a, b): return a // b\n";
     cout << "def MOD(a, b): return a % b\n";
     cout << "def LENGTH(a): return len(a)\n";
