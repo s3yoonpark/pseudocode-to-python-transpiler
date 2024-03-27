@@ -1,6 +1,6 @@
 # pseudocode-to-python transpiler 
 This repository contains the source code that converts pseudocode to python code and allow its execution. <br> 
-The syntax of the pseudocode strictly follows the Cambridge International Education IGCSE 2023-2025 Syllabus 0984 (also found in [this PDF](./595440-2023-2025-syllabus.pdf). <br> 
+The syntax of the pseudocode strictly follows the Cambridge International Education IGCSE 2023-2025 Syllabus 0984 (also found in [this PDF](./595440-2023-2025-syllabus.pdf)). <br> 
 Currently, the transpiler supports every feature except handling files. This feature will be added soon. <br>
 If you find any bugs, please email imseyoonpark22@gmail.com.
 
